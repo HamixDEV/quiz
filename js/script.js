@@ -1,4 +1,4 @@
-/* global $ */
+c/* global $ */
 
 $(document).ready(function() {
     $("button").click(function() {
