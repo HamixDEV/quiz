@@ -1,14 +1,34 @@
-c/* global $ */
+/* global $ */
 
-$(document).ready(function() {
-    $("button").click(function() {
-        var name = $("#name").val();
-        var techPlacement = "TBD";
-        var imgSrc = "https://media.giphy.com/media/22zgHX8aop488/giphy.gif";
-        var q1Result = $("#question1").val();
-        var q2Result = $("#question2").val();
-        var q3Result = $("#question3").val();
-        var totalScore;
-    });
 
+var totalscore = 0;
+console.log(totalscore);
+
+$(".red").click(function(){
+    totalscore=totalscore+1.2;
+    console.log(totalscore);
+});
+$(".orange").click(function(){
+    totalscore=totalscore+1.4;
+    console.log(totalscore);
+});
+$(".yellow").click(function(){
+    totalscore=totalscore+1.6;
+    console.log(totalscore);
+});
+$(".green").click(function(){
+    totalscore=totalscore+1.8;
+    console.log(totalscore);
+});
+$(".blue").click(function(){
+    totalscore=totalscore+2.0;
+    console.log(totalscore);
+});
+$(".indigo").click(function(){
+    totalscore=totalscore+2.2;
+    console.log(totalscore);
+});
+$(".violet").click(function(){
+    totalscore=totalscore+2.4;
+    console.log(totalscore);
 });
