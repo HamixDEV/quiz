@@ -3,7 +3,7 @@
 
 <head>
   <title>Buzzfeed Quiz</title>
-  <link type='text/css' rel='stylesheet' href='css/style.css' />
+  <link type='text/css' rel='stylesheet' href='css/style.css'/>
 </head>
 
 <body>
@@ -21,27 +21,37 @@
   <a href="https://en.wikipedia.org/wiki/Tom_Anderson">Tom Anderson</a>
   <div id="tom">Buzzfeed Contributor</div>
   <img class="siliconValley" src="https://www.coolpun.com/images/coolpun/de/de45b95377e879930df23767affeb600.jpg">
-  <div class="questions">
     <h2>Let's start with color</h2>
-    <h2> Whats your favorite color of the rainbow</h2>
-    <button class="red"></button>
-    <button class="orange"></button>
-    <button class="yellow"></button>
-   <button class="green"></button>
-    <button class="blue"></button>
-    <button class="indigo"></button>
-    <button class="violet"></button>
+    <h2> Whats your favorite color from rainbow</h2>
     
-    <h2> Whats your favorite type of movie?</h2>
-    <input id="question1" placeholder="Reading, Coding, Sports, Designing">
+<div class="colors">
+    <button class="colours" id="red">Red</button>
+    <button class="colours" id="orange">Orange</button>
+    <button class="colours" id="yellow">Yellow</button>
+    <button class="colours" id="green">Green</button>
+    <button class="colours" id="blue">Blue</button>
+    <button class="colours" id="indigo">Indigo</button>
+    <button class="colours" id="violet">Violet</button>
+</div>
+
     <h2> Whats your favorite type of refreshment</h2>
-    <input id="question2" placeholder="Pancakes, Waffles, or French Toast">
-    <h2>What is your favorite animal?</h2>
-    <input id="question3" placeholder="Mine is a Duck">
+<div class="refresh">
+  <button id="fruits">Fruits</button>
+  <button id="yogurt">Yogurt</button>
+  <button id="cheesesticks">Chessesticks</button>
+  <button id="popcorn">Popcorn</button>
+</div>
+    <h2>Which is your favorite animal?</h2>
+<div class="animal">
+  <button id="fox">Fox</button>
+  <button id="deer">Deer</button>
+  <button id="lion">Lion</button>
+  <button id="duck">Duck</button>
+</div>
+  <div>
+    <button id="result">Click here to find your box</button>
   </div>
-  <div class="result">
-    <button>Click here to land your box</button>
-  </div>
+  <div class="wtpb"></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src='js/script.js'></script>
 </body>
